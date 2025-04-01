@@ -14,7 +14,7 @@ export default function Footer() {
             </Link>
             <p className="mt-4 text-zinc-400 max-w-md">
               A design-centric hackathon focused on UI/UX and front-end development, organized by Continental Institute
-              of International Studies.
+              for International Studies.
             </p>
             <div className="mt-6 flex space-x-4">
               <a
@@ -66,7 +66,7 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-4">Contact</h3>
             <ul className="space-y-2">
-              <li className="text-zinc-400">Continental Institute of International Studies</li>
+              <li className="text-zinc-400">Continental Institute for International Studies</li>
               <li>
                 <a
                   href="http://linkedin.com/in/kabir-sood-89087a200/"
