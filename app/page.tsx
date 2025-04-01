@@ -63,7 +63,7 @@ export default function Home() {
               </h2>
               <p className="text-white/70 mb-6">
                 Frontend Fantasia is a design-centric hackathon that challenges participants to create interactive,
-                responsive web designs. Organized by Continental Institute of International Studies, this event brings
+                responsive web designs. Organized by Continental Institute for International Studies, this event brings
                 together creative minds passionate about UI/UX and front-end development.
               </p>
               <ul className="space-y-4">

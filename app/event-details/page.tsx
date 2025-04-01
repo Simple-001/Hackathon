@@ -52,7 +52,7 @@ export default function EventDetailsPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-white text-lg">Venue</h3>
-                    <p className="text-white/70">Continental Institute of International Studies</p>
+                    <p className="text-white/70">Continental Institute for International Studies</p>
                     <p className="text-white/50 text-sm">Exact location details to be announced</p>
                   </div>
                 </li>
