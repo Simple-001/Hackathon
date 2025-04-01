@@ -30,18 +30,9 @@ export default function Navbar() {
           {/* Hackathon Logo */}
           <Link href="/" className="flex items-center">
             <img
-              src="/images/frontend-fantasia-logo.jpeg"
+              src="https://www.ciis.ac.in/wp-content/uploads/ciis.png"
               alt="Frontend Fantasia Logo"
               className="h-12 w-auto md:h-14 rounded-md"
-            />
-          </Link>
-
-          {/* College Logo */}
-          <Link href="https://www.ciis.ac.in/" target="_blank" rel="noopener noreferrer" className="flex items-center">
-            <img
-              src="https://www.ciis.ac.in/wp-content/uploads/ciis.png"
-              alt="CIIS Logo"
-              className="h-10 w-auto md:h-12"
             />
           </Link>
         </div>
