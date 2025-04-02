@@ -54,9 +54,26 @@ export default function SponsorsPage() {
                   <p className="text-white/70">
                     <span className="text-white font-medium">Community Engagement:</span> Support the tech community and
                     foster innovation.
-                  </p>
+                    </p>
                 </li>
               </ul>
+            </div>
+            <div className="relative">
+              <div className="aspect-square rounded-xl overflow-hidden bg-gradient-to-br from-indigo-500 to-purple-700 p-1">
+                <div className="w-full h-full bg-zinc-900 rounded-lg flex items-center justify-center">
+                  <img
+                    src="https://www.bing.com/th/id/OIP.3Tzc2hpO9Dgqpvr5DxAYhAHaIF?w=150&h=164&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+                    alt="Sponsors and participants networking"
+                    className="rounded-lg object-cover w-full h-full opacity-80 mix-blend-lighten"
+                  />
+                </div>
+              </div>
+              <div className="absolute -bottom-6 -left-6 bg-zinc-900 p-4 rounded-xl border border-zinc-800 shadow-xl">
+                <div className="text-center">
+                  <p className="text-white/70 text-sm">Expected Participants</p>
+                  <p className="text-xl font-bold text-white">80-120 Students</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -121,7 +138,7 @@ export default function SponsorsPage() {
           </div>
         </div>
       </section>
-      
+
       {/* Current Sponsor Section */}
       <section className="py-16 bg-black">
         <div className="container mx-auto px-4">
