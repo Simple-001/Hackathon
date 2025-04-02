@@ -62,6 +62,66 @@ export default function SponsorsPage() {
         </div>
       </section>
 
+      {/* Sponsorship Benefits Section */}
+      <section className="py-16 bg-zinc-950">
+        <div className="container mx-auto px-4">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="order-2 md:order-1">
+              <div className="relative">
+                <div className="aspect-video rounded-xl overflow-hidden bg-gradient-to-br from-pink-500 to-orange-400 p-1">
+                  <div className="w-full h-full bg-zinc-900 rounded-lg flex items-center justify-center">
+                    <img
+                      src="https://th.bing.com/th/id/OIP.xl3bJXqTJx8xfuoeTqNIYQHaFS?w=256&h=183&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                      alt="Sponsor benefits"
+                      className="rounded-lg object-cover w-full h-full opacity-80 mix-blend-lighten"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="order-1 md:order-2">
+              <h2 className="text-3xl font-bold mb-6 text-white">
+                Sponsorship <span className="text-pink-500">Benefits</span>
+              </h2>
+              <p className="text-white/70 mb-8">
+                As a sponsor, you'll receive a range of benefits designed to maximize your visibility and engagement
+                with participants.
+              </p>
+              <div className="space-y-6">
+                <div className="bg-zinc-900 border border-zinc-800 p-4 rounded-lg">
+                  <h3 className="text-lg font-semibold text-white mb-2">Brand Exposure</h3>
+                  <p className="text-white/70">
+                    Your logo will be prominently displayed on our website, event banners, and promotional materials,
+                    reaching a wide audience of tech enthusiasts.
+                  </p>
+                </div>
+                <div className="bg-zinc-900 border border-zinc-800 p-4 rounded-lg">
+                  <h3 className="text-lg font-semibold text-white mb-2">Speaking Opportunities</h3>
+                  <p className="text-white/70">
+                    Higher-tier sponsors receive speaking slots during the event, allowing you to share your company's
+                    vision and connect with participants.
+                  </p>
+                </div>
+                <div className="bg-zinc-900 border border-zinc-800 p-4 rounded-lg">
+                  <h3 className="text-lg font-semibold text-white mb-2">Talent Recruitment</h3>
+                  <p className="text-white/70">
+                    Connect with skilled developers and designers who could be potential interns or employees for your
+                    company.
+                  </p>
+                </div>
+                <div className="bg-zinc-900 border border-zinc-800 p-4 rounded-lg">
+                  <h3 className="text-lg font-semibold text-white mb-2">Product Showcase</h3>
+                  <p className="text-white/70">
+                    Demonstrate your products or services to an engaged audience of tech-savvy individuals who are eager
+                    to learn about new technologies.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
       {/* Current Sponsor Section */}
       <section className="py-16 bg-black">
         <div className="container mx-auto px-4">
@@ -75,7 +135,7 @@ export default function SponsorsPage() {
           </div>
           <div className="flex justify-center">
             <div className="bg-zinc-900 border border-zinc-800 p-6 rounded-xl flex items-center justify-center aspect-square w-40 h-40">
-              <img src="/images/Alar_solutions.png" alt="Alar Solutions Logo" className="w-full h-full object-contain" />
+              <img src="https://static.wixstatic.com/media/4437be_d4c9d10cdf8a462f9745e5b63e30354e~mv2.png/v1/fill/w_218,h_113,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Alar_solutions_edited.png" alt="Alar Solutions Logo" className="w-full h-full object-contain" />
             </div>
           </div>
         </div>
