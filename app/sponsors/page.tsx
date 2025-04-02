@@ -18,46 +18,66 @@ export default function SponsorsPage() {
       {/* Why Sponsor Section */}
       <section className="py-16 bg-zinc-950">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-6 text-white text-center">
-            Why <span className="text-pink-500">Sponsor</span> Us?
-          </h2>
-          <p className="text-white/70 mb-8 text-center">
-            Sponsoring the Frontend Fantasia Hackathon offers your company a unique opportunity to connect with talented developers, showcase your brand, and support innovation in the tech community.
-          </p>
-        </div>
-      </section>
-
-      {/* Sponsorship Benefits Section */}
-      <section className="py-16 bg-zinc-950">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-6 text-white text-center">
-            Sponsorship <span className="text-pink-500">Benefits</span>
-          </h2>
-          <p className="text-white/70 mb-8 text-center">
-            As a sponsor, you'll receive a range of benefits designed to maximize your visibility and engagement with participants.
-          </p>
-        </div>
-      </section>
-
-      {/* Current Sponsors Section */}
-      <section className="py-16 bg-black">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-6 text-white">
-            Our <span className="text-pink-500">Sponsors</span>
-          </h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
-            <div className="bg-zinc-900 border border-zinc-800 p-6 rounded-xl flex items-center justify-center">
-              <img src="/images/Alar_solutions.png" alt="Sponsor Logo" className="w-16 h-16 object-contain" />
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl font-bold mb-6 text-white">
+                Why <span className="text-pink-500">Sponsor</span> Us?
+              </h2>
+              <p className="text-white/70 mb-8">
+                Sponsoring the Frontend Fantasia Hackathon offers your company a unique opportunity to connect with
+                talented developers, showcase your brand, and support innovation in the tech community.
+              </p>
+              <ul className="space-y-4">
+                <li className="flex">
+                  <CheckCircle className="h-6 w-6 text-pink-500 mr-3 flex-shrink-0" />
+                  <p className="text-white/70">
+                    <span className="text-white font-medium">Brand Visibility:</span> Showcase your brand to a targeted
+                    audience of tech enthusiasts and future developers.
+                  </p>
+                </li>
+                <li className="flex">
+                  <CheckCircle className="h-6 w-6 text-pink-500 mr-3 flex-shrink-0" />
+                  <p className="text-white/70">
+                    <span className="text-white font-medium">Talent Recruitment:</span> Connect with skilled developers
+                    for potential internships or job opportunities.
+                  </p>
+                </li>
+                <li className="flex">
+                  <CheckCircle className="h-6 w-6 text-pink-500 mr-3 flex-shrink-0" />
+                  <p className="text-white/70">
+                    <span className="text-white font-medium">Product Promotion:</span> Demonstrate your products or
+                    services to an engaged audience.
+                  </p>
+                </li>
+                <li className="flex">
+                  <CheckCircle className="h-6 w-6 text-pink-500 mr-3 flex-shrink-0" />
+                  <p className="text-white/70">
+                    <span className="text-white font-medium">Community Engagement:</span> Support the tech community and
+                    foster innovation.
+                  </p>
+                </li>
+              </ul>
             </div>
-            {[...Array(3)].map((_, index) => (
-              <div key={index} className="bg-zinc-900 border border-zinc-800 p-6 rounded-xl flex items-center justify-center">
-                <p className="text-white/50 text-sm">Your logo here</p>
-              </div>
-            ))}
           </div>
-          <p className="text-white/70 mt-8">
-            Interested in becoming a sponsor? Contact us to learn more about our sponsorship opportunities.
-          </p>
+        </div>
+      </section>
+
+      {/* Current Sponsor Section */}
+      <section className="py-16 bg-black">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-4 text-white">
+              Our <span className="text-pink-500">Sponsor</span>
+            </h2>
+            <p className="text-white/70 max-w-2xl mx-auto">
+              We are proud to have Alar Solutions as our sponsor for the Frontend Fantasia Hackathon.
+            </p>
+          </div>
+          <div className="flex justify-center">
+            <div className="bg-zinc-900 border border-zinc-800 p-6 rounded-xl flex items-center justify-center aspect-square w-40 h-40">
+              <img src="/images/Alar_solutions.png" alt="Alar Solutions Logo" className="w-full h-full object-contain" />
+            </div>
+          </div>
         </div>
       </section>
 
