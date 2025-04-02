@@ -153,9 +153,11 @@ export default function SponsorsPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
             <div className="bg-zinc-900 border border-zinc-800 p-6 rounded-xl flex items-center justify-center aspect-square">
               <div className="text-center">
-                <p className="text-white/50 text-sm">Your logo here</p>
+                <img src="/images/Alar_solutions.pdf-removebg-preview (1).png" alt="Logo" className="w-16 h-16 object-contain" />
               </div>
             </div>
+          </div>
+
 
             <div className="bg-zinc-900 border border-zinc-800 p-6 rounded-xl flex items-center justify-center aspect-square">
               <div className="text-center">

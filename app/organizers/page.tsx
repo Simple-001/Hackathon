@@ -26,7 +26,7 @@ const organizers = [
     linkedin:
       "https://www.linkedin.com/in/arshnoor-singh-80a244357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     image: "images/WhatsApp Image 2025-04-01 at 18.51.50_2899a0a3.jpg",
-    bio: "Dedicated to building inclusive tech communities, Mrs. Shivani manages partnerships and participant engagement for Frontend Fantasia. Feel free to contact him anytime.",
+    bio: "Dedicated to building inclusive tech communities, Mrs. Shivani manages partnerships and participant engagement for Frontend Fantasia. Feel free to contact her anytime.",
   },
 ]
 
