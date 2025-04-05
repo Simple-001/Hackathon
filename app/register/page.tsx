@@ -162,19 +162,20 @@ export default function RegisterPage() {
                       />
                     </div>
 
-                    {/* Mode of Attending (New) */}
-                    <div className="space-y-2">
-                      <Label htmlFor="mode-of-attending">Mode of Attending</Label>
-                      <Select name="mode-of-attending" required>
-                        <SelectTrigger>
-                          <SelectValue placeholder="Select mode" />
-                        </SelectTrigger>
-                        <SelectContent>
-                          <SelectItem value="online">Online</SelectItem>
-                          <SelectItem value="offline">Offline</SelectItem>
-                        </SelectContent>
-                      </Select>
-                    </div>
+                    {/* Mode of Attending (Only Online Available) */}
+<div className="space-y-2">
+  <Label htmlFor="mode-of-attending">Mode of Attending</Label>
+  <Select name="mode-of-attending" required>
+    <SelectTrigger>
+      <SelectValue placeholder="Select mode" />
+    </SelectTrigger>
+    <SelectContent>
+      <SelectItem value="online">Online</SelectItem>
+    </SelectContent>
+  </Select>
+  <p className="text-sm text-yellow-500">* Offline registrations are closed.</p>
+</div>
+
 
                     {/* Project Idea */}
                     <div className="space-y-2">
