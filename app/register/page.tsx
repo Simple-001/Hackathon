@@ -21,7 +21,7 @@ export default function RegisterPage() {
     const formData = new FormData(e.currentTarget)
 
     try {
-      const response = await fetch(" https://getform.io/f/allyxwka", {
+      const response = await fetch(" https://getform.io/f/bjjmvpmb", {
         method: "POST",
         body: formData,
       })
